@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 	@GetMapping("/")
 	public String welcome() {
-		String welcomeMessage = "Welcome to Skutan Availability. This is an app in early development.";
+		String welcomeMessage = "Welcome to Skutan Availability, Amanda! This is an app in early development.";
 		return welcomeMessage;
 	}
 }
